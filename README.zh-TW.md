@@ -37,7 +37,7 @@
 6. 重新啟動 Squid 服務：
    - 使用 systemctl restart squid 命令重新啟動 Squid 服務，使新的設定生效。
 7. 顯示連線資訊：
-   - 使用 curl ifconfig.me 命令獲取伺服器的公網 IP 位址。如果無法獲取公網 IP，則會顯示錯誤訊息。
+   - 使用 curl ifconfig.me 命令獲取伺服器的 IP 位址。如果無法獲取 IP，則會顯示錯誤訊息。
    - 顯示伺服器的 IP 位址、Prot、使用者名稱和密碼。
 
 ---
