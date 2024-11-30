@@ -63,16 +63,16 @@ This script performs the following actions:
 
 1. Download the script:
    ```bash
-   git clone https://github.com/yourusername/squid-proxy-setup.git
-   cd squid-proxy-setup
+   git clone https://github.com/occultationtw/easy-squid-proxy.git
+   cd easy-squid-proxy
    ```
 2. Grant execute permission to the script:
    ```bash
-   chmod +x squid-setup.sh
+   chmod +x setup-squid.sh
    ```
 3. Run the script:
    ```bash
-   sudo ./squid-setup.sh
+   sudo ./setup-squid.sh
    ```
 4. Enter the following information when prompted:
    - Proxy server username
