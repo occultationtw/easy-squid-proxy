@@ -53,16 +53,16 @@
 
 1. 下載腳本：
    ```bash
-   git clone https://github.com/yourusername/squid-proxy-setup.git
-   cd squid-proxy-setup
+   git clone https://github.com/occultationtw/easy-squid-proxy.git
+   cd easy-squid-proxy
    ```
 2. 賦予腳本執行權限：
    ```bash
-   chmod +x squid-setup.sh
+   chmod +x setup-squid.sh
    ```
 3. 執行腳本：
    ```bash
-   sudo ./squid-setup.sh
+   sudo ./setup-squid.sh
    ```
 4. 根據提示輸入以下資料：
    - 代理伺服器的使用者名稱
