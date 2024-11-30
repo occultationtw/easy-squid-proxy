@@ -1,6 +1,6 @@
 ## 🌐 Language / 語言
 
-- [English](README.md)
+- [English](README.md) (Translated by Gemini 1.5 Pro)
 - [繁體中文](README.zh-TW.md)
 
 ---
