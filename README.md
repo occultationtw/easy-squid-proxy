@@ -1,7 +1,7 @@
-## 🌐 Language / Language
+## 🌐 Language / 語言
 
 - [English](README.md)
-- [Traditional Chinese](README.zh-TW.md)
+- [繁體中文](README.zh-TW.md)
 
 ---
 
