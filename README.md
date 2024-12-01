@@ -34,11 +34,9 @@ This script performs the following actions:
 5. Configures Squid:
    - Creates a new `/etc/squid/squid.conf` configuration file.
    - The configuration file includes the following important settings:
-      - `acl` (Access Control List) settings: Defines rules for allowed and denied connections, such as allowing secure ports (80, 21, 443, etc.) and HTTPS connections.
-      - `http_access` settings: Controls access based on ACL rules, such as denying connections to non-secure ports.
       - `auth_param` settings: Configures basic authentication using the `/etc/squid/passwd` file.
       - `http_port` settings: Sets the port number Squid listens on.
-      - `via off`, `forwarded_for delete`, `request_header_access`, and other settings: Used to hide proxy server information and enhance security.
+      - `via off`, `forwarded_for delete`, `request_header_access`, and other settings: Used to hide proxy server information.
       - `refresh_pattern` settings: Configures cache refresh rules.
       - `cache deny all`, `access_log none`, `cache_store_log none`, `cache_log /dev/null`: Disables caching and turns off all logging.
 
